@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<style>
+		.classe{
+			padding: 20px;
+			margin: 20px;
+			color: white;
+			height: 150px;
+			width: 170px;
+			position: relative;
+			display: inline-table;
+			border-radius: 20px;
+			background-color: #075792;
+			border: solid 1px black;
+		}
+
+		.classe2{
+			padding: 20px;
+			margin: 20px;
+			color: white;
+			height: 150px;
+			width: 170px;
+			position: relative;
+			display: inline-table;
+			border-radius: 20px;
+			background-color: #0E79AA;
+			border: solid 1px black;
+		}
+
+		h2{
+			text-align: center;
+		}
+		body{
+			background-image: url(Images/bk9.jpg);
+			background-repeat: no-repeat;
+			-webkit-background-size: cover;
+  			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+
+		}	
+		button{
+			margin-left: 5px;
+			border:1px solid #25692A;
+			border-radius:4px;
+			display:inline-block;
+			cursor:pointer;
+			font-family:Verdana;
+			font-weight:bold;
+			font-size:13px;
+			padding:6px 10px;
+			text-decoration:none;		
+		}
+		#img{
+			width: 70px;
+			height: 80px;
+			border: solid 1px black;
+			margin-left: auto;
+   			margin-right: auto;
+   			display: block;
+   			margin-bottom:10px; 
+   			border-radius: 15px;
+		}
+	</style>
+	<link rel="shortcut icon" href="Images/favicon.png">  
+	<script type="text/javascript">
+	    function changeImage(a, b) {
+	        document.getElementById(b).src=a;
+	    }
+	</script>
+</head>
+<body>
+	<a href="salas.html"><button>Voltar</button></a>
+	<h1><center>Gerência de Equipamentos</center></h1>
+	<div class="classe">
+		<h2>Climatizador</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>		
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>
+	<div class="classe2">
+		<h2>Luz 1</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>
+	<div class="classe">
+		<h2>Climatizador 2</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>
+	<div class="classe2">
+		<h2>Luz 2</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>
+	<div class="classe">
+		<h2>Luz 3</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>
+	<div class="classe2">
+		<h2>Projetor</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>
+	<div class="classe">
+		<h2>Não conectado</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>
+	<div class="classe2">
+		<h2>Não conectado</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>	
+	<div class="classe">
+		<h2>Não conectado</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>
+	<div class="classe2">
+		<h2>Não conectado</h2>
+		<div id="main_img">
+		    <img id="img" src="Images/desligado.jpg">
+		</div>
+		<button onclick='changeImage("Images/ligado.png");'>Ligar</button>
+		<button onclick='changeImage("Images/desligado.jpg");'>Desligar</button>
+	</div>	
+</body>
+</html>
